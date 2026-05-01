@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         一括読み込み
+// @name         超勤プラグイン_一括読み込み
 // @match        https://midorinet-iwate.cybozu.com/o/ag.cgi?page=DBRecord&did=150*
 // @match        https://midorinet-iwate.cybozu.com/o/ag.cgi?page=DBForm&did=150*
 // @match        https://midorinet-iwate.cybozu.com/o/ag.cgi?page=DBTaskForm&did=150*
