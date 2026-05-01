@@ -28,8 +28,6 @@
     }
     if (isPage("DBTaskForm", 150)) {
       tyoukin3();
-    }
-    if (isPage("DBTaskForm", 150) || isPage("DBForm", 150)) {
       tyoukin4();
     }
   });
