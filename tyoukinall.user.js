@@ -8,28 +8,3 @@
 // @require      https://raw.githubusercontent.com/midoriI2026/tyoukin3/main/tyoukin3.js
 // @require      https://raw.githubusercontent.com/midoriI2026/tyoukin4/main/tyoukin4.js
 // ==/UserScript==
-(function() {
-  'use strict';
-
-  const params = new URLSearchParams(location.search);
-
-  function isPage(page, did) {
-    return params.get("page") === page && params.get("did") === String(did);
-  }
-
-  window.addEventListener('load', () => {
-
-    if (isPage("DBRecord", 150)) {
-      tyoukin1();
-    }
-
-    if (isPage("DBForm", 150)) {
-      tyoukin2();
-    }
-    if (isPage("DBTaskForm", 150)) {
-      tyoukin3();
-      tyoukin4();
-    }
-  });
-
-})();
