@@ -19,7 +19,7 @@
 
   window.addEventListener('load', () => {
 
-    if (isPage("DBRecord", 150) || isPage("DBForm", 150)) {
+    if (isPage("DBRecord", 150)) {
       tyoukin1();
     }
 
